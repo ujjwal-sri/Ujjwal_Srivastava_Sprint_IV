@@ -12,6 +12,7 @@ export class TaskComponent implements OnInit {
   ngOnInit(): void {
   }
   newTask(){
+    console.log("new task");
     this.showTaskTable = false;
   }
 }
